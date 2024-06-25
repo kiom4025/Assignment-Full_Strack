@@ -6,7 +6,6 @@ body {
     margin: 0;
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     font-family: Arial, sans-serif;
-    /* flex-direction: column; */
 }
 
 #lapSection{
@@ -45,7 +44,6 @@ body {
 }
 
 .buttons button:hover {
-    /* background-color: #242728; */
     opacity: 0.6;
     outline-style: solid;
     outline-width: 0.15rem;
@@ -80,16 +78,12 @@ th{
     background-color: #a6e0f4;
 }
 
-#mainwindow{
+/* #mainwindow{
     position: sticky;
-}
+} */
 
 @media (max-width: 700px) {
     body {
       flex-direction: column;
-    }
-    #lapsection{
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
     }
 }
