@@ -1,0 +1,444 @@
+.line {
+    border: 3px solid #f5bf47;
+    margin-top: 350px;
+    width: 1950px;
+}
+
+.side_decor {
+    width: 78px;
+    height: 119px;
+}
+
+#side_decor_1 {
+    background-color: #182f42;
+    margin-top: 73px;
+}
+
+#side_decor_2 {
+    background-color: #f5bf47;
+    margin-top: 100px;
+}
+
+#side_decor_3 {
+    background-color: #f5bf47;
+    margin-top: 740px;
+}
+
+#side_decor_4 {
+    background-color: #f5bf47;
+    margin-top: 605px;
+}
+
+#side_decor_5 {
+    background-color: #f5bf47;
+    margin-top: 150px;
+}
+
+
+#person_name {
+    font-size: 65px;
+    position: absolute;
+    top: 65px;
+    left: 127px;
+    color: #001629;
+}
+
+#designation {
+    font-size: 40px;
+    color: #f5bf47;
+    position: absolute;
+    top: 150px;
+    left: 133px;
+}
+
+#objective {
+    width: 630px;
+    font-size: 31px;
+    position: absolute;
+    top: 200px;
+    left: 127px;
+}
+
+#profile_pic {
+    position: absolute;
+    top: 65px;
+    left: 860px;
+    border: 10px solid #f5bf47;
+    border-radius: 40px;
+}
+
+#contact_details {
+    position: absolute;
+    top: 65px;
+    left: 1500px;
+    text-align: right;
+    font-size: 31px;
+    line-height: 70px;
+}
+
+.heading1 {
+    font-size: 45px;
+}
+
+.subHeading1 {
+    font-size: 40px;
+}
+
+.currentStatus {
+    font-size: 27px;
+}
+
+.points {
+    font-size: 32px;
+}
+
+#wExp {
+    width: fit-content;
+    position: absolute;
+    top: 580px;
+    left: 127px;
+}
+
+#edu {
+    width: fit-content;
+    position: absolute;
+    top: 2430px;
+    left: 127px;
+}
+
+#designation2 {
+    width: fit-content;
+    font-size: 45px;
+    position: absolute;
+    top: 634px;
+    left: 127px;
+}
+
+#designation3 {
+    width: fit-content;
+    font-size: 45px;
+    position: absolute;
+    top: 1495px;
+    left: 127px;
+}
+
+#designation4 {
+    width: fit-content;
+    font-size: 45px;
+    position: absolute;
+    top: 2220px;
+    left: 127px;
+}
+
+#designation5 {
+    width: fit-content;
+    font-size: 45px;
+    position: absolute;
+    top: 2490px;
+    left: 127px;
+}
+
+#sh1 {
+    width: fit-content;
+    position: absolute;
+    top: 685px;
+    left: 127px;
+}
+
+#sh5 {
+    width: fit-content;
+    position: absolute;
+    top: 1550px;
+    left: 127px;
+}
+
+#sh6 {
+    width: fit-content;
+    position: absolute;
+    top: 2275px;
+    left: 127px;
+}
+
+#sh7 {
+    width: fit-content;
+    position: absolute;
+    top: 2540px;
+    left: 127px;
+}
+
+#sh2 {
+    width: 840px;
+    position: absolute;
+    top: 1120px;
+    left: 1180px;
+}
+
+#sh3 {
+    width: fit-content;
+    position: absolute;
+    top: 1420px;
+    left: 1180px;
+}
+
+#sh4 {
+    width: fit-content;
+    position: absolute;
+    top: 1500px;
+    left: 1180px;
+}
+
+#cs1 {
+    width: fit-content;
+    position: absolute;
+    top: 745px;
+    left: 127px;
+    color: #f5bf47;
+}
+
+#cs2 {
+    width: fit-content;
+    position: absolute;
+    top: 1600px;
+    left: 127px;
+    color: #f5bf47;
+}
+
+#cs3 {
+    width: fit-content;
+    position: absolute;
+    top: 2325px;
+    left: 127px;
+    color: #f5bf47;
+}
+
+#cs4 {
+    width: fit-content;
+    position: absolute;
+    top: 2590px;
+    left: 127px;
+    color: #f5bf47;
+}
+
+#sh1_points {
+    width: 830px;
+    position: absolute;
+    top: 790px;
+    left: 127px;
+}
+
+#sh3_points {
+    width: 800px;
+    position: absolute;
+    top: 1650px;
+    left: 127px;
+}
+
+#sh2_points {
+    width: 860px;
+    position: absolute;
+    top: 1220px;
+    left: 1180px;
+}
+
+#skillandComp {
+    width: fit-content;
+    position: absolute;
+    top: 580px;
+    left: 1180px;
+}
+
+#skill {
+    font-size: 33px;
+    width: 860px;
+    position: absolute;
+    top: 650px;
+    left: 1180px;
+}
+
+
+.rectangleFill {
+    display: inline;
+    background-color: #f5bf47;
+    color: white;
+    width: fit-content;
+    border-radius: 12px;
+    margin: 0px 7px;
+    padding: 20px;
+    line-height: 90px;
+}
+
+#course_training {
+    width: fit-content;
+    position: absolute;
+    top: 1060px;
+    left: 1180px;
+}
+
+#resume_source {
+    position: absolute;
+    width: auto;
+    top: 2780px;
+    margin-left: 127px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    border: 3px solid #f5bf47;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#Volunteer_Exp {
+    width: fit-content;
+    position: absolute;
+    top: 1910px;
+    left: 1180px;
+}
+
+#designation6 {
+    width: fit-content;
+    font-size: 45px;
+    position: absolute;
+    top: 1975px;
+    left: 1180px;
+}
+
+#sh8 {
+    width: fit-content;
+    position: absolute;
+    top: 2030px;
+    left: 1180px;
+}
+
+#cs5 {
+    width: fit-content;
+    position: absolute;
+    top: 2090px;
+    left: 1180px;
+    color: #f5bf47;
+}
+
+#sh4_points {
+    width: 800px;
+    position: absolute;
+    top: 2140px;
+    left: 1180px;
+}
+
+#achievements {
+    width: fit-content;
+    position: absolute;
+    top: 1600px;
+    left: 1180px;
+}
+
+#sh9 {
+    width: fit-content;
+    position: absolute;
+    top: 1670px;
+    left: 1180px;
+}
+
+#achive_1 {
+    width: fit-content;
+    position: absolute;
+    font-size: 25px;
+    font-style: normal;
+    top: 1720px;
+    left: 1180px;
+}
+
+#sh10 {
+    width: fit-content;
+    position: absolute;
+    top: 1770px;
+    left: 1180px;
+}
+
+#achive_2 {
+    width: fit-content;
+    position: absolute;
+    font-size: 25px;
+    font-style: normal;
+    top: 1820px;
+    left: 1180px;
+}
+
+#interest_content {
+    position: absolute;
+    top: 2320px;
+    left: 1170px;
+    width: 800px;
+    text-align: left;
+    font-size: 31px;
+    line-height: 70px;
+}
+
+#INTERESTS {
+    width: fit-content;
+    position: absolute;
+    top: 2280px;
+    left: 1180px;
+}
+
+#LANGUAGES {
+    width: fit-content;
+    position: absolute;
+    top: 2565px;
+    left: 1180px;
+}
+
+.lang_level {
+    width: 78px;
+    height: 119px;
+    position: absolute;
+    top: 2565px;
+    left: 1180px;
+}
+
+#English {
+    width: 110px;
+    height: 119px;
+    margin: 15px;
+    background-color: #f5bf47;
+}
+
+.English {
+    position: absolute;
+    top: 2650px;
+    left: 1200px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#Spanish {
+    width: 110px;
+    height: 89px;
+    margin: 15px;
+    border-top: 30px solid lightgray;
+    background-color: #f5bf47;
+}
+
+.Spanish {
+    position: absolute;
+    top: 2650px;
+    left: 1450px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#Mandarin {
+    width: 110px;
+    height: 49px;
+    margin: 15px;
+    border-top: 70px solid lightgray;
+    background-color: #f5bf47;
+
+}
+
+.Mandarin {
+    position: absolute;
+    top: 2650px;
+    left: 1700px;
+    font-size: 40px;
+    text-align: center;
+}

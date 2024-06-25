@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Stopwatch - Moki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatch" id="mainwindow">
+        <div id="display">00:00:00:000</div>
+        <div class="buttons">
+            <button id="start_stop" class="start">Start</button>
+            <button id="reset" class="_reset">Reset</button>
+            <button id="lap" class="_lap">Lap</button>
+        </div>
+    </div>
+    
+    <div class="stopwatch" id="lapSection">
+        <table id="lapData">
+            <tr>
+                <th>No.</th>
+                <th>Lap&nbsp;time</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
