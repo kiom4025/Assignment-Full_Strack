@@ -1,7 +1,7 @@
 let timer; // variable to store our intervalID
 let running = false; // Initially the timer will be all not running
 let elapsedTime = 0; // Since the timer is off, the time passed by the stopwatch is zero
-var display_time, lapCount = 0;
+var display_time, lapCount = 0; //Creating global variable - display_time: to store time, lapCount: to store lap button press count.
 
 // Obtaining button and display id from HTML
 const display = document.getElementById('display');
@@ -89,8 +89,8 @@ function reset() {
         let elementToRemove = document.getElementById(("lap_" + i)); // Get the element with the id
         if (elementToRemove) elementToRemove.parentNode.removeChild(elementToRemove); // Remove the element from its parent
     }
-    document.getElementById("lapSection").style.display = "none";
-    lapCount = 0;
+    document.getElementById("lapSection").style.display = "none"; //Hiding the lap section after reset
+    lapCount = 0; //resetting the count of lap count after reset
 }
 
 //////////////////////////////////////////////////////////////////////
@@ -104,15 +104,19 @@ function stop() {
 
 function lap() {
     document.getElementById("lapSection").style.display = "block";
-    lapCount += 1;
-    // console.log("#" + lapCount + " >> " + display_time);
-    let newrow = document.createElement('tr');
-    newrow.setAttribute("id",("lap_" + lapCount))
-    let newcount = document.createElement('td');
-    newcount.innerText = lapCount;
-    let newlap = document.createElement('td');
-    newlap.innerText = display_time;
+    lapCount += 1; // Whenever the lap button is pressed the lapCount variable is incremented by 1
+    
+    // Checking output in console
+    // console.log("#" + lapCount + " >> " + display_time); 
+    
+    let newrow = document.createElement('tr'); // creating a new row in the existing HTML Table
+    newrow.setAttribute("id",("lap_" + lapCount)) // Providing a unique id to the row tag based on the number of press
+    let newcount = document.createElement('td'); // creating a new data tag inside the row tag.
+    newcount.innerText = lapCount; // assigning lap button press count to the inner HTML
+    let newlap = document.createElement('td'); // creating a new data tag inside the row tag.
+    newlap.innerText = display_time; // assigning time from the "updateDisplay()" function to the inner HTML
 
-    document.getElementById("lapData").appendChild(newrow).appendChild(newcount);
+    // Append created HTML row & data tag to the existing HTML table
+    document.getElementById("lapData").appendChild(newrow).appendChild(newcount); 
     document.getElementById(("lap_" + lapCount)).appendChild(newlap);
 }
