@@ -12,7 +12,7 @@ And for the credits mention, these are the resources that helped me. There are m
 Credits:
 (Thank you all for helping)
 
-Deployment using github: https://youtu.be/XGcuxuhV-Jg?feature=shared
+  1. Deployment using github: https://youtu.be/XGcuxuhV-Jg?feature=shared
 
 
 Happy coding everyone!!
